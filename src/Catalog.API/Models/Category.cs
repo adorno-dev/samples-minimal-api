@@ -10,5 +10,14 @@ namespace Catalog.API.Models
 
         //[JsonIgnore]
         public ICollection<Product>? Products { get; set; }
+
+        public Category() {}
+
+        public Category(int categoryId, string? name, string? description)
+        {
+            CategoryId = categoryId;
+            Name = name;
+            Description = description;
+        }
     }
 }

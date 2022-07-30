@@ -1,2 +1,4 @@
-src/Catalog.API/bin
-src/Catalog.API/obj
+**/bin
+**/obj
+**/.vs
+**/.vscode

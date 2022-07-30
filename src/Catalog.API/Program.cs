@@ -25,3 +25,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseHttpsRedirection();
 app.Run();
+
+public partial class Program { }
